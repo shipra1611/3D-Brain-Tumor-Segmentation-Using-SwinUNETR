@@ -18,10 +18,10 @@
 
 | Segmentation Class | Dice Score |
 |--------------------|------------|
-| NCR/NET – Necrotic Core (Class 1) | — |
-| Edema (Class 2) | — |
-| Enhancing Tumor (ET) (Class 3) | — |
-| **Mean Dice (foreground)** | **0.4244** |
+| NCR/NET – Necrotic Core (Class 1) | 0.4244 |
+| Edema (Class 2) | 0.4338|
+| Enhancing Tumor (ET) (Class 3) | 0.5239 |
+| **Mean Dice (foreground)** | **0.4607** |
 > Per-class scores are printed after running the Phase 5 evaluation.
 
 ---
