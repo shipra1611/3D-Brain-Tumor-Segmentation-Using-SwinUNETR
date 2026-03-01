@@ -34,6 +34,10 @@
 
 ![Training Curve](training_curve.png)
 
+## Model Prediction
+
+![Tumor Segmentation](images/prediction.gif)
+
 ##  Dataset
 
 **BraTS 2020** — Multimodal Brain Tumor Segmentation Challenge 2020
