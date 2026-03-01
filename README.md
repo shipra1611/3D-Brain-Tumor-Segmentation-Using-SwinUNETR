@@ -42,6 +42,9 @@
 
 **BraTS 2020** — Multimodal Brain Tumor Segmentation Challenge 2020
 
+BraTS 2020 dataset is not included in this repository due to licensing restrictions.
+Please download it from the official challenge website.
+
 - **Source:** [Kaggle — awsaf49/brats20-dataset-training-validation](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 - **Total cases:** 371 patients (368 valid after filtering)
 - **Split:** 80% train / 20% validation (random seed 42)
@@ -128,6 +131,11 @@ LoadImaged → EnsureChannelFirstd → ConvertLabels (4→3)
 
 ---
 
+## Performance Discussion
+
+The model showed steady convergence, with validation Dice improving from 0.16 to 0.42 across 12 epochs. 
+Plateau observed after epoch 12 indicates potential benefit from LR scheduling or longer training.
+
 ##  How to Run
 
 ### 1. Setup (Google Colab)
@@ -164,6 +172,13 @@ numpy
 matplotlib
 imageio
 ```
+
+## Key Learnings
+
+- Importance of label remapping in BraTS dataset
+- Effect of mixed precision on GPU memory optimization
+- Sliding window inference for full-volume evaluation
+- Transformer-based models require careful tuning for convergence
 
 ## References
 
