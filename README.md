@@ -2,10 +2,6 @@
 
 > 3D volumetric brain tumor segmentation on the BraTS 2020 dataset using **SwinUNETR** (Swin Transformer U-Net), built with PyTorch and MONAI
 
-# BraTS 2020 — Brain Tumor Segmentation with SwinUNETR
-
-3D volumetric brain tumor segmentation on the BraTS 2020 dataset using **SwinUNETR** (Swin Transformer U-Net), built with PyTorch and MONAI.
-
 ---
 
 ## Results
