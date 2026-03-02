@@ -28,7 +28,7 @@
 
 ## Training Curve
 
-![Training Curve](training_curve.png)
+![Training Curve](images/training_curve.png)
 
 ## Model Prediction
 
